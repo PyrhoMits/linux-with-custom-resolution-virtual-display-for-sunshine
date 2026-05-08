@@ -25,7 +25,7 @@ drm.edid_firmware=DP-2:edid/lg-34gn850b-dp video=DP-2:e"
 
 ```
 
-DP-2 stands for Display Port 2, you can view in video output with 
+DP-2 stands for Display Port 2, you can view available video output with 
 
 ```
 for p in /sys/class/drm/*/status; do con=${p%/status}; echo -n "${con#*/card?-}: "; cat $p; done

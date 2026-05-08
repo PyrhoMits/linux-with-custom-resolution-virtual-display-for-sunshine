@@ -47,3 +47,17 @@ Regenerate boot config
 ```
 sudo mkinitcpio -P
 ```
+
+4. Verify Result
+
+Navigate to `Display & Configuration`, you should now see new display
+
+5. Make it work with Sunshine:
+
+Try this:
+
+```
+https://gist.github.com/MrHighVoltage/78ca58218a569d253433fd4be883c6c3
+```
+
+Ref: https://www.azdanov.dev/articles/2025/how-to-create-a-virtual-display-for-sunshine-on-arch-linux
